@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddIncomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Back button -->
+        <Button
+            android:id="@+id/btnBackIncome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_gravity="start"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/incomeBlurb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="State your income and its description to use in an Income vs Expenses Graph! "
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Date -->
+        <EditText
+            android:id="@+id/etIncomeDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date (yyyy-MM-dd)"
+            android:focusable="false"
+            android:inputType="none"
+            android:padding="8dp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Description -->
+        <EditText
+            android:id="@+id/etIncomeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Description"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Amount -->
+        <EditText
+            android:id="@+id/etIncomeAmount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Amount (R)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Save Income button -->
+        <Button
+            android:id="@+id/btnSaveIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Income" />
+
+        <TextView
+            android:id="@+id/tvGraphLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Income vs Expenses Overview"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChartIncome"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+    </LinearLayout>
+</ScrollView>

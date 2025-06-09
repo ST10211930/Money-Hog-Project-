@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Greeting on top left -->
+    <TextView
+        android:id="@+id/greetingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey, user@email.com!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Blurb -->
+    <TextView
+        android:id="@+id/tvBlurb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check out your spending pattern and keep your goals on track!"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="24dp" />
+
+    <!-- View Graph button -->
+    <Button
+        android:id="@+id/btnViewGraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Spending Graph"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Blurb -->
+    <TextView
+        android:id="@+id/addincomeBlurb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Curious about your income vs your expenses? "
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="24dp" />
+    <Button
+        android:id="@+id/btnAddIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Income"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>
