@@ -67,4 +67,8 @@ dependencies {
     //line chart
     implementation ("com.github.PhilJay:MPAndroidChart:v3.1.0")
 
+    //Card-style Container
+    implementation("androidx.cardview:cardview:1.0.0")
+
+
 }
