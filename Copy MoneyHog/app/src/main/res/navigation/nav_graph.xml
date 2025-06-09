@@ -28,4 +28,11 @@
         android:id="@+id/addExpenseFragment"
         android:name="vcmsa.projects.moneyhog.AddExpenseFragment"
         android:label="AddExpenseFragment" />
+
+    <fragment
+        android:id="@+id/graphFragment"
+        android:name="vcmsa.projects.moneyhog.GraphFragment"
+        android:label="Graph"
+        tools:layout="@layout/fragment_graph" />
+
 </navigation>

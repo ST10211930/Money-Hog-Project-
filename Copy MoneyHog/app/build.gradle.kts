@@ -63,4 +63,8 @@ dependencies {
 
     // Material Components (should already be there)
     implementation ("com.google.android.material:material:1.11.0")
+
+    //line chart
+    implementation ("com.github.PhilJay:MPAndroidChart:v3.1.0")
+
 }
