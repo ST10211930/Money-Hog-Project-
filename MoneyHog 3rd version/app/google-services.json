@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "289388908620",
+    "project_id": "money-hog",
+    "storage_bucket": "money-hog.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289388908620:android:7a370391d2fd59d7c164e9",
+        "android_client_info": {
+          "package_name": "vcmsa.projects.moneyhog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgx1FoV67t_pClZcqX4gzkdpi9Q-_96PA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
